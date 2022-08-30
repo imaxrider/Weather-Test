@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Test Application</string>
+    <string name="search_city">Search City</string>
+    <string name="search">Search</string>
+    <string name="celsius">Celsius</string>
+    <string name="fahrenheit">Fahrenheit</string>
+    <string name="city">City</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
