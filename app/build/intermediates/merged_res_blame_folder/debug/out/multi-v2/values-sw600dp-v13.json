@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.imax.testapplication.app-mergeDebugResources-33:/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "outputFile": "com.imax.testapplication.app-mergeDebugResources-35:/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
                     "source": "/Users/imax/.gradle/caches/transforms-3/9d6778b007a14e0c6659deb3da7018f2/transformed/material-1.6.1/res/values-sw600dp-v13/values-sw600dp-v13.xml",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/imax/.gradle/caches/transforms-3/d4b64ce115264eee4ef5139e292b8f81/transformed/appcompat-1.4.2/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/Users/imax/.gradle/caches/transforms-3/25fdb4b5729408368178052da17f5e34/transformed/appcompat-1.5.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

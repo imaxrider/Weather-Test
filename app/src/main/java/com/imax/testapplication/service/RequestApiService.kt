@@ -7,11 +7,12 @@ import com.imax.testapplication.config.AppConfig
 import com.imax.testapplication.model.Mapper.ErrorMapper
 import com.imax.testapplication.model.response.ForecastResponse
 import com.imax.testapplication.model.response.WeatherResponse
+import com.imax.testapplication.service.dto.IServiceInfo
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
-class RequestApiService {
+class RequestApiService{
 
     private val TAG: String = this::class.java.simpleName
 
@@ -42,8 +43,7 @@ class RequestApiService {
         call?.enqueue(object : Callback<ForecastResponse> {
             override fun onResponse(
                 call: Call<ForecastResponse>,
-                response: Response<ForecastResponse>
-            ) {
+                response: Response<ForecastResponse>) {
                 if (AppImpl.httpResponseCode(response.code())){
                     result(response.body()!!)
                 }else{
@@ -56,4 +56,5 @@ class RequestApiService {
             }
         })
     }
+
 }

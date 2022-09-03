@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.imax.testapplication.app-mergeDebugResources-33:/values-night-v8/values-night-v8.xml",
+            "outputFile": "com.imax.testapplication.app-mergeDebugResources-35:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/imax/.gradle/caches/transforms-3/d4b64ce115264eee4ef5139e292b8f81/transformed/appcompat-1.4.2/res/values-night-v8/values-night-v8.xml",
+                    "source": "/Users/imax/.gradle/caches/transforms-3/25fdb4b5729408368178052da17f5e34/transformed/appcompat-1.5.0/res/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/imax/Develop/Android/weather-test/app/src/main/res/values-night/themes.xml",
+                    "source": "/Users/imax/Develop/Android/WeatherTest/app/src/main/res/values-night/themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

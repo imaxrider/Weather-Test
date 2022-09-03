@@ -1,11 +1,10 @@
 package com.imax.testapplication.ui.activity
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.widget.TextView
 import androidx.appcompat.widget.Toolbar
+import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
@@ -15,6 +14,8 @@ import com.google.android.material.tabs.TabLayout
 import com.imax.testapplication.R
 import com.imax.testapplication.config.IntentConfig
 import com.imax.testapplication.constant.PageType
+import com.imax.testapplication.constant.UnitsType
+import com.imax.testapplication.databinding.ActivityTabMenuBinding
 import com.imax.testapplication.ui.fragment.ForeCastFragment
 import com.imax.testapplication.ui.fragment.WeatherFragment
 import com.imax.testapplication.ui.viewmodel.WeatherViewModel
@@ -26,48 +27,47 @@ class TabMenuActivity : AppCompatActivity() {
     private var sectionsPagerAdapter: SectionsPagerAdapter? = null
     private val fragments = ArrayList<Fragment>()
     private val pageTitle = ArrayList<String>()
+    private lateinit var binding: ActivityTabMenuBinding
 
-    private val toolbar: Toolbar by lazy { findViewById(R.id.toolbar) }
-    private val viewPager: ViewPager by lazy { findViewById(R.id.viewPager) }
-    private val tabLayout: TabLayout by lazy { findViewById(R.id.tabLayout) }
-    private val txvCity: TextView by lazy { findViewById(R.id.txvCity) }
-
-    lateinit var sharedPrefUtils: SharedPrefUtils
+    private lateinit var sharedPrefUtils: SharedPrefUtils
     lateinit var weatherViewModel: WeatherViewModel
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_tab_menu)
-
-        main()
+        binding = DataBindingUtil.setContentView(this, R.layout.activity_tab_menu)
+        init()
         itemOnClick()
     }
-        private fun main(){
+        private fun init(){
             weatherViewModel = ViewModelProvider(this)[WeatherViewModel::class.java]
             sharedPrefUtils = SharedPrefUtils(this).getInstance()!!
-            setSupportActionBar(toolbar)
+            setSupportActionBar(binding.toolbar)
             mapFragmentPermission()
             supportActionBar!!.setDisplayShowTitleEnabled(false)
 
             sectionsPagerAdapter = SectionsPagerAdapter(supportFragmentManager)
 
-            viewPager.adapter = sectionsPagerAdapter
-            viewPager.offscreenPageLimit = pageTitle.size
+            binding.viewPager.adapter = sectionsPagerAdapter
+            binding.viewPager.offscreenPageLimit = pageTitle.size
 
-            tabLayout.setupWithViewPager(viewPager)
+            binding.tabLayout.setupWithViewPager(binding.viewPager)
 
             selectWeather()
 
-            viewPager.addOnPageChangeListener(TabLayout.TabLayoutOnPageChangeListener(tabLayout))
-            tabLayout.addOnTabSelectedListener(TabLayout.ViewPagerOnTabSelectedListener(viewPager))
+            binding.viewPager.addOnPageChangeListener(TabLayout.TabLayoutOnPageChangeListener(
+                binding.tabLayout
+            ))
+            binding.tabLayout.addOnTabSelectedListener(TabLayout.ViewPagerOnTabSelectedListener(
+                binding.viewPager
+            ))
 
             getData()
         }
 
     private fun itemOnClick(){
-        toolbar.setNavigationOnClickListener {
+        binding.toolbar.setNavigationOnClickListener {
             finish()
         }
-        viewPager.addOnPageChangeListener(object : ViewPager.OnPageChangeListener {
+        binding.viewPager.addOnPageChangeListener(object : ViewPager.OnPageChangeListener {
             override fun onPageScrolled(
                 position: Int, positionOffset: Float,
                 positionOffsetPixels: Int,
@@ -83,10 +83,9 @@ class TabMenuActivity : AppCompatActivity() {
 
     private fun getData(){
         try {
-
             val weather = sharedPrefUtils.getWeather()
             if (!CollectionUtils.isEmpty(weather)){
-                txvCity.text = weather.name
+                binding.txvCity.text = weather.name
             }
 
             val units =  intent.getStringExtra(IntentConfig.TEMPERATURE)
@@ -116,10 +115,10 @@ class TabMenuActivity : AppCompatActivity() {
     private fun selectWeather() {
         for (i in pageTitle.indices) {
             if (pageTitle[i] == PageType.WEATHER.name) {
-                tabLayout.getTabAt(i)!!.setIcon(R.drawable.ic_cloud)
+                binding.tabLayout.getTabAt(i)!!.setIcon(R.drawable.ic_cloud)
             }
             if (pageTitle[i] == PageType.FORECAST.name) {
-                tabLayout.getTabAt(i)!!.setIcon(R.drawable.ic_cloud_circle)
+                binding.tabLayout.getTabAt(i)!!.setIcon(R.drawable.ic_cloud_circle)
             }
 
         }

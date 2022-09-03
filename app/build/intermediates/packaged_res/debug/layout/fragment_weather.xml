@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        
+    
+
+                 
+                          
+                                                                             
+           
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.fragment.WeatherFragment">
+    tools:context=".ui.fragment.WeatherFragment" android:tag="layout/fragment_weather_0">
 
     <RelativeLayout
         android:id="@+id/relativeMain"
@@ -31,6 +39,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:gravity="center"
+                    android:tag="binding_1"                            
                     android:textSize="70sp" />
 
                 <TextView
@@ -45,17 +54,21 @@
                 android:id="@+id/txvWeather"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:tag="binding_2"                  
                 android:gravity="center"
                 android:textSize="30sp" />
 
             <TextView
-                android:id="@+id/txvHumidity"
                 android:layout_marginTop="20dp"
+                android:id="@+id/txvHumidity"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:gravity="center"
+                android:tag="binding_3"                                  
                 android:textSize="30sp" />
+
         </LinearLayout>
     </RelativeLayout>
 
 </FrameLayout>
+         

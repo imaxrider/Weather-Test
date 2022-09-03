@@ -1,9 +1,14 @@
-# Weather-Test
-Android Application Weather from openweathermap
+# README #
 
-Api from  openweathermap 
+This README would normally document whatever steps are necessary to get your application up and running.
 
-connect webservice json wheater
+### What is this repository for? ###
 
-Programming language : Kotlin 
+* Quick summary
+* Version
+* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
 
+## Description
+Weather from openweathermap test android application.
+
+Programming language : Kotlin

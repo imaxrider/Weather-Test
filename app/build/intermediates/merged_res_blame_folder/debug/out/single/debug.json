@@ -1,130 +1,126 @@
 [
     {
-        "merged": "com.imax.testapplication.app-merged_res-35:/layout_activity_tab_menu.xml.flat",
-        "source": "com.imax.testapplication.app-main-37:/layout/activity_tab_menu.xml"
+        "merged": "com.imax.testapplication.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.imax.testapplication.app-main-39:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-merged_res-35:/drawable_bg_button.xml.flat",
-        "source": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-main-37:/drawable/bg_button.xml"
+        "merged": "com.imax.testapplication.app-merged_res-37:/layout_list_forecast_item.xml.flat",
+        "source": "com.imax.testapplication.app-main-39:/layout/list_forecast_item.xml"
     },
     {
-        "merged": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-merged_res-35:/drawable_ic_error.xml.flat",
-        "source": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-main-37:/drawable/ic_error.xml"
+        "merged": "com.imax.testapplication.app-merged_res-37:/xml_backup_rules.xml.flat",
+        "source": "com.imax.testapplication.app-main-39:/xml/backup_rules.xml"
     },
     {
-        "merged": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-merged_res-35:/drawable_ic_success.xml.flat",
-        "source": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-main-37:/drawable/ic_success.xml"
+        "merged": "com.imax.testapplication.app-merged_res-37:/layout_fragment_fore_cast.xml.flat",
+        "source": "com.imax.testapplication.app-main-39:/layout/fragment_fore_cast.xml"
     },
     {
-        "merged": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-merged_res-35:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-main-37:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "com.imax.testapplication.app-merged_res-37:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.imax.testapplication.app-main-39:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-merged_res-35:/drawable_ic_close.xml.flat",
-        "source": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-main-37:/drawable/ic_close.xml"
+        "merged": "com.imax.testapplication.app-merged_res-37:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.imax.testapplication.app-main-39:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-merged_res-35:/layout_activity_main.xml.flat",
-        "source": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-main-37:/layout/activity_main.xml"
+        "merged": "com.imax.testapplication.app-merged_res-37:/layout_activity_main.xml.flat",
+        "source": "com.imax.testapplication.app-main-39:/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-merged_res-35:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-main-37:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "com.imax.testapplication.app-merged_res-37:/drawable_ic_cloud.xml.flat",
+        "source": "com.imax.testapplication.app-main-39:/drawable/ic_cloud.xml"
     },
     {
-        "merged": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-merged_res-35:/drawable_ic_cloud_circle.xml.flat",
-        "source": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-main-37:/drawable/ic_cloud_circle.xml"
+        "merged": "com.imax.testapplication.app-merged_res-37:/xml_data_extraction_rules.xml.flat",
+        "source": "com.imax.testapplication.app-main-39:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-merged_res-35:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-main-37:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "com.imax.testapplication.app-merged_res-37:/layout_fragment_weather.xml.flat",
+        "source": "com.imax.testapplication.app-main-39:/layout/fragment_weather.xml"
     },
     {
-        "merged": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-merged_res-35:/xml_backup_rules.xml.flat",
-        "source": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-main-37:/xml/backup_rules.xml"
+        "merged": "com.imax.testapplication.app-merged_res-37:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.imax.testapplication.app-main-39:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-merged_res-35:/drawable_ic_launcher_background.xml.flat",
-        "source": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-main-37:/drawable/ic_launcher_background.xml"
+        "merged": "com.imax.testapplication.app-merged_res-37:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.imax.testapplication.app-main-39:/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-merged_res-35:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-main-37:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "com.imax.testapplication.app-merged_res-37:/drawable_ic_success.xml.flat",
+        "source": "com.imax.testapplication.app-main-39:/drawable/ic_success.xml"
     },
     {
-        "merged": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-merged_res-35:/layout_activity_tab_menu.xml.flat",
-        "source": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-main-37:/layout/activity_tab_menu.xml"
+        "merged": "com.imax.testapplication.app-merged_res-37:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.imax.testapplication.app-main-39:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-merged_res-35:/xml_network_security_config.xml.flat",
-        "source": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-main-37:/xml/network_security_config.xml"
+        "merged": "com.imax.testapplication.app-merged_res-37:/drawable_ic_cloud_select.xml.flat",
+        "source": "com.imax.testapplication.app-main-39:/drawable/ic_cloud_select.xml"
     },
     {
-        "merged": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-merged_res-35:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-main-37:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "com.imax.testapplication.app-merged_res-37:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.imax.testapplication.app-main-39:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-merged_res-35:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-main-37:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "com.imax.testapplication.app-merged_res-37:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.imax.testapplication.app-main-39:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-merged_res-35:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-main-37:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "com.imax.testapplication.app-merged_res-37:/drawable_ic_error.xml.flat",
+        "source": "com.imax.testapplication.app-main-39:/drawable/ic_error.xml"
     },
     {
-        "merged": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-merged_res-35:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-main-37:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "com.imax.testapplication.app-merged_res-37:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.imax.testapplication.app-main-39:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-merged_res-35:/layout_fragment_fore_cast.xml.flat",
-        "source": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-main-37:/layout/fragment_fore_cast.xml"
+        "merged": "com.imax.testapplication.app-merged_res-37:/drawable_ic_search.xml.flat",
+        "source": "com.imax.testapplication.app-main-39:/drawable/ic_search.xml"
     },
     {
-        "merged": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-merged_res-35:/drawable_ic_cloud_select.xml.flat",
-        "source": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-main-37:/drawable/ic_cloud_select.xml"
+        "merged": "com.imax.testapplication.app-merged_res-37:/drawable_ic_close.xml.flat",
+        "source": "com.imax.testapplication.app-main-39:/drawable/ic_close.xml"
     },
     {
-        "merged": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-merged_res-35:/layout_fragment_weather.xml.flat",
-        "source": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-main-37:/layout/fragment_weather.xml"
+        "merged": "com.imax.testapplication.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.imax.testapplication.app-main-39:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-merged_res-35:/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-main-37:/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "com.imax.testapplication.app-merged_res-37:/xml_network_security_config.xml.flat",
+        "source": "com.imax.testapplication.app-main-39:/xml/network_security_config.xml"
     },
     {
-        "merged": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-merged_res-35:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-main-37:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "com.imax.testapplication.app-merged_res-37:/drawable_ic_cloud_circle_select.xml.flat",
+        "source": "com.imax.testapplication.app-main-39:/drawable/ic_cloud_circle_select.xml"
     },
     {
-        "merged": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-merged_res-35:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-main-37:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "com.imax.testapplication.app-merged_res-37:/layout_activity_tab_menu.xml.flat",
+        "source": "com.imax.testapplication.app-main-39:/layout/activity_tab_menu.xml"
     },
     {
-        "merged": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-merged_res-35:/drawable_ic_cloud.xml.flat",
-        "source": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-main-37:/drawable/ic_cloud.xml"
+        "merged": "com.imax.testapplication.app-merged_res-37:/drawable_ic_cloud_circle.xml.flat",
+        "source": "com.imax.testapplication.app-main-39:/drawable/ic_cloud_circle.xml"
     },
     {
-        "merged": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-merged_res-35:/drawable_ic_search.xml.flat",
-        "source": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-main-37:/drawable/ic_search.xml"
+        "merged": "com.imax.testapplication.app-merged_res-37:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.imax.testapplication.app-main-39:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-merged_res-35:/drawable_ic_cloud_circle_select.xml.flat",
-        "source": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-main-37:/drawable/ic_cloud_circle_select.xml"
+        "merged": "com.imax.testapplication.app-merged_res-37:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.imax.testapplication.app-main-39:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-merged_res-35:/layout_list_forecast_item.xml.flat",
-        "source": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-main-37:/layout/list_forecast_item.xml"
+        "merged": "com.imax.testapplication.app-merged_res-37:/drawable_bg_button.xml.flat",
+        "source": "com.imax.testapplication.app-main-39:/drawable/bg_button.xml"
     },
     {
-        "merged": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-merged_res-35:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-main-37:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "com.imax.testapplication.app-merged_res-37:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.imax.testapplication.app-main-39:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-merged_res-35:/xml_data_extraction_rules.xml.flat",
-        "source": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-main-37:/xml/data_extraction_rules.xml"
-    },
-    {
-        "merged": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-merged_res-35:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/imax/.gradle/daemon/7.3.3/com.imax.testapplication.app-main-37:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "com.imax.testapplication.app-merged_res-37:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.imax.testapplication.app-main-39:/mipmap-hdpi/ic_launcher_round.webp"
     }
 ]

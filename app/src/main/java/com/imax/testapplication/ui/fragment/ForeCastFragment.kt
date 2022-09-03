@@ -8,12 +8,12 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.activityViewModels
 import androidx.recyclerview.widget.DefaultItemAnimator
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import com.imax.testapplication.R
-import com.imax.testapplication.business.AppImpl
+import com.imax.testapplication.databinding.FragmentForeCastBinding
 import com.imax.testapplication.model.ForeCastModel
 import com.imax.testapplication.ui.adapter.ForeCastAdapter
 import com.imax.testapplication.ui.viewmodel.WeatherViewModel
@@ -23,34 +23,33 @@ import com.imax.testapplication.util.SharedPrefUtils
 
 class ForeCastFragment : Fragment() {
     private  val TAG = "ForeCastFragment"
-    lateinit var viewFragment: View
     lateinit var contexts: Context
     private lateinit var sharedPrefUtils: SharedPrefUtils
     private val weatherViewModel: WeatherViewModel by activityViewModels()
-    lateinit var recyclerView: RecyclerView
     var foreCastList: ArrayList<ForeCastModel?>? = ArrayList()
     lateinit var adapter: ForeCastAdapter
+
+    private lateinit var binding: FragmentForeCastBinding
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         // Inflate the layout for this fragment
-        viewFragment = inflater.inflate(R.layout.fragment_fore_cast, container, false)
+        binding = DataBindingUtil.inflate(inflater, R.layout.fragment_fore_cast, container, false)
         contexts = requireActivity().applicationContext
-        recyclerView = viewFragment.findViewById(R.id.recyclerView)
 
-        main()
-        return viewFragment
+        init()
+        return binding.root
     }
-    private fun main(){
+
+    private fun init(){
         sharedPrefUtils = SharedPrefUtils(contexts).getInstance()!!
-
-        recyclerView.setHasFixedSize(true)
-        recyclerView.itemAnimator = DefaultItemAnimator()
-        recyclerView.isNestedScrollingEnabled = false
-        recyclerView.layoutManager = LinearLayoutManager(
+        binding.recyclerView.setHasFixedSize(true)
+        binding.recyclerView.itemAnimator = DefaultItemAnimator()
+        binding.recyclerView.isNestedScrollingEnabled = false
+        binding.recyclerView.layoutManager = LinearLayoutManager(
             contexts, LinearLayoutManager.VERTICAL, false)
-
 
         getData()
     }
@@ -62,7 +61,7 @@ class ForeCastFragment : Fragment() {
             if (!CollectionUtils.isEmpty(foreCast.list)){
                 foreCastList = foreCast.list
                 adapter = ForeCastAdapter(foreCastList,contexts)
-                recyclerView.adapter = adapter
+                binding.recyclerView.adapter = adapter
             }
 
             checkUpdateUnits()
